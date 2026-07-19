@@ -5,24 +5,24 @@ This project is a modern **Movie Ticket Booking System** developed using **React
 
 It provides users with a seamless movie booking experience by allowing them to browse movies, explore featured films, view movie details, select seats, and book tickets through an intuitive and responsive interface.
  **🎯 Objective**
- **1.Develop** a responsive Movie Ticket Booking application.
- **2.Provide** a smooth and interactive ticket booking experience.
- **3.Demonstrate** modern frontend development using React and Tailwind CSS.
- **4.Integrate** a cloud database using Supabase.
- **5.Implement** a visually appealing UI with animations and responsive design.
+ -**1.Develop** a responsive Movie Ticket Booking application.
+ -**2.Provide** a smooth and interactive ticket booking experience.
+ -**3.Demonstrate** modern frontend development using React and Tailwind CSS.
+ -**4.Integrate** a cloud database using Supabase.
+ -**5.Implement** a visually appealing UI with animations and responsive design.
 
  **⚙️ Features**
 
- ✅ **Browse Movies** – View all available movies with complete details.
- ✅ **Featured Movie Section** – Dynamic hero banner showcasing featured movies.
- ✅ **Interactive Movie Cards** – Display movie posters, ratings, genres, runtime, and pricing.
- ✅ **Seat Selection** – Choose preferred seats through an interactive layout.
- ✅ **Ticket Booking** – Book movie tickets with a simple and user-friendly workflow.
- ✅ **Movie Details** – View runtime, genre, rating, release year, director, and description.
- ✅ **Responsive Design** – Optimized for Desktop, Tablet, and Mobile devices.
- ✅ **Fast Performance** – Powered by Vite for lightning-fast development and loading.
- ✅ **Modern UI & Animations** – Smooth transitions and visually appealing components.
- ✅ **Supabase Integration** – Fetches movie data dynamically from the database.
+ -✅ **Browse Movies** – View all available movies with complete details.
+ -✅ **Featured Movie Section** – Dynamic hero banner showcasing featured movies.
+ -✅ **Interactive Movie Cards** – Display movie posters, ratings, genres, runtime, and pricing.
+ -✅ **Seat Selection** – Choose preferred seats through an interactive layout.
+ -✅ **Ticket Booking** – Book movie tickets with a simple and user-friendly workflow.
+ -✅ **Movie Details** – View runtime, genre, rating, release year, director, and description.
+ -✅ **Responsive Design** – Optimized for Desktop, Tablet, and Mobile devices.
+ -✅ **Fast Performance** – Powered by Vite for lightning-fast development and loading.
+ -✅ **Modern UI & Animations** – Smooth transitions and visually appealing components.
+ -✅ **Supabase Integration** – Fetches movie data dynamically from the database.
  
  **🏗️ Tech Stack**
 
@@ -48,4 +48,4 @@ It provides users with a seamless movie booking experience by allowing them to b
 5. **Preferred seats** are selected through the booking interface.
 6. **Ticket price** is calculated dynamically.
 7. **Booking details** are processed and displayed to the user.
-** 🚀 Built with scalability in mind, this project is ready to evolve into a feature-rich movie booking ecosystem. Upcoming enhancements will focus on automation, personalization, and seamless user interactions**
+ 🚀 Built with scalability in mind, this project is ready to evolve into a feature-rich movie booking ecosystem. Upcoming enhancements will focus on automation, personalization, and seamless user interactions
