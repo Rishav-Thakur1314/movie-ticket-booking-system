@@ -5,7 +5,7 @@ import { useAuth } from "../context/AuthContext.jsx";
 import { Icon } from "../components/Icon.jsx";
 
 export default function SignupPage() {
-  const { signUp, signIn } = useAuth();
+  const { signUp } = useAuth();
   const navigate = useNavigate();
   const [params] = useSearchParams();
   const redirect = params.get("redirect") || "/";
@@ -19,17 +19,15 @@ export default function SignupPage() {
     e.preventDefault();
     setError(null);
     setLoading(true);
-    const { error } = await signUp(email.trim(), password);
+    const { data, error } = await signUp(email.trim(), password);
     if (error) {
       setLoading(false);
       setError(error.message);
       return;
     }
-    // Auto sign-in since email confirmation is off
-    const { error: signInError } = await signIn(email.trim(), password);
     setLoading(false);
-    if (signInError) {
-      setError(signInError.message);
+    if (!data?.session) {
+      setError("Account created. Check your email to confirm your account, then sign in.");
       return;
     }
     navigate(redirect);
